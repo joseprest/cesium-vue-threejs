@@ -1,0 +1,26 @@
+{
+	"baseUrl": "http://192.168.0.140:6780/D3Viz",
+	"terrainUrl":"http://192.168.0.140:18080/D3SVIZ_TERRAIN/TerrainServlet",
+	"defaultImage": [{
+			"url": "http://mt1.google.cn/vt/lyrs=s,h&gl=cn&x={x}&y={y}&z={z}&s=Gali",
+			"credit": "",
+			"maximumLevel": 20,
+			"show": false
+		},
+		{
+			"url": "http://t0.tianditu.com/cia_w/wmts?service=wmts&request=GetTile&version=1.0.0&LAYER=cia&tileMatrixSet=w&TileMatrix={TileMatrix}&TileRow={TileRow}&TileCol={TileCol}&style=default&format=tiles&tk=7711a24780452f03bb7c02fba98183b9",
+			"layer": "tiandituImgMarker",
+			"style": "default",
+			"format": "image/jpeg",
+			"tileMatrixSetID": "tiandituImgMarker",
+			"show": true,
+			"maximumLevel": 16
+		}
+	],
+	"logLatHeight":{
+		"lon":"116.39123",
+		"lat":"39.90691",
+		"height":"0",
+		"position":""
+	}
+}

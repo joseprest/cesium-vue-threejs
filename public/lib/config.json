@@ -1,0 +1,17 @@
+{
+	"baseUrl": "http://192.168.0.140:8710/d3viz-sdk/Data",
+	"terrainUrl":"http://192.168.0.140:18080/D3SVIZ_TERRAIN/TerrainServlet",
+	"defaultImage": [{
+			"url": "http://mt1.google.cn/vt/lyrs=s,h&gl=cn&x={x}&y={y}&z={z}&s=Gali",
+			"credit": "",
+			"maximumLevel": 20,
+			"show": false
+		}
+	],
+	"logLatHeight":{
+		"lon":"116.39123",
+		"lat":"39.90691",
+		"height":"0",
+		"position":""
+	}
+}

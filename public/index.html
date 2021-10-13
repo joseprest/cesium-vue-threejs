@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="zh">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico" />
+    <title><%= htmlWebpackPlugin.options.title %></title>
+    <script type="text/javascript" src="js/webRtcPlayer.js"></script>
+    <script src="./lib/Cesium/Cesium.js"></script>
+    <script src="./lib/Navigation/viewerCesiumNavigationMixin.js"></script>
+    <script src="./lib/Draggable/TweenMax.min.js"></script>
+    <script src="./lib/Draggable/Draggable.min.js"></script>
+    <!-- <script src="./lib/d3preview.js"></script> -->
+    <script src="http://localhost:8088/d3preview.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://g.alicdn.com/de/prismplayer/2.8.8/skins/default/aliplayer-min.css"
+    />
+    <script
+      type="text/javascript"
+      charset="utf-8"
+      src="https://g.alicdn.com/de/prismplayer/2.8.8/aliplayer-min.js"
+    ></script>
+  </head>
+  <body>
+    <noscript>
+      <strong
+        >We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work
+        properly without JavaScript enabled. Please enable it to
+        continue.</strong
+      >
+    </noscript>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
+
+  <!-- <script>
+    console.log(d3preview, "------d3preview")
+  </script> -->
+</html>
